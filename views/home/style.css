@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 120px; 
+    background-image: url(img/Logotipo\ de\ moda\ feminino\ elegante\ branco.png);
+    height: 120px;
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    border: 2px solid #000000;
+    /* border-radius: 5px; */
+    box-shadow: 4px 5px 6px rgba(10, 12, 11, 0.6);
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+}
+
+
+header>ul {
+    min-width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+    /* margin-left: 170px; */
+}
+
+header>ul>li {
+    font-size: 18px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 15px;
+    float: left;
+    /* margin-left: 30px; */
+    background-color: black;
+}
+
+header>ul>li>a:hover {
+    color: rgb(255, 0, 0);
+    box-shadow: 1px 1px 1px 1px rgba(255, 0, 0, 0.6);
+    border-radius: 1px;
+    transition: all, 0.5s;
+}
+
+header>ul>li>a {
+    color: white;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    line-height: 100px;
+    background-color:black;
+}
+
+#nome{
+    margin-top: 50px;
+    margin-left: 125px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#nome2{
+    margin-top: 1500px;
+    margin-left: 125px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#table1{
+    float: left;
+    margin-left: 350px;
+    margin-top: -90px;
+}
+
+#table2{
+    float: left;
+    margin-left: 350px;
+    margin-top: -200px;
+}

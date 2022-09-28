@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXURIOUS SIN</title>
+    <script type="text/javascript" src="funcoes.js"></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='feedback.css'>
+  
+</head>
+
+
+<body link="black" alink="black" vlink="black">
+
+    <header>
+        <div class="logo"></div>
+        <ul>
+            <li> <a href="../home/index.html"> HOME </a> </li>
+            <li> <a href="../sobre/suporte.html"> SOBRE </a> </li>
+            <li> <a href="../avaliação/feedback.html"> AVALIAÇÃO </a> </li>
+            <li> <a href="">LOGOUT </a> </li>
+            
+            
+        </ul>
+    </header>
+
+    <section id="nome">
+        <h2> AVALIAÇÃO</h2>
+    </section>
+
+<div id="center">
+    
+        <ol type="1">
+            <li><label>Você considera que este produto atende plenamente às suas necessidades?</label>
+        
+        <br> <label><input type="radio" id="nes" name="nes" value="S" required/>Sim </label>
+             <br/>
+             <label><input type="radio" id="nes" name="nes" value="N" required/>Não</label>
+        </li>
+        </ol>
+
+    <ol type="1" start="2">
+        <li>
+    <label> Qual das seguintes palavras você usaria para descrever este produtos?</label>
+    <br/>
+    <label><input type="radio" id="ach" name="ach" value="C" required/>Confiável</label>
+    <br/>
+    <label><input type="radio" id="ach" name="ach" value="MC" required/>Muito caro</label>
+    <br/>
+    <label><input type="radio" id="ach" name="ach" value="AL" required/>Alta qualidade</label>
+    <br/>
+    <label><input type="radio" id="ach" name="ach" value="UN" required/>Único</label>
+</li>
+</ol>
+    
+<ol type="1" start="3">
+    <li>
+    <label>Como este produto atende suas necessidades?</label>
+    <br/>
+    <label><input type="radio" id="ate" name="ate" value="EX" required/>Extremamente bem</label>
+    <br/>
+    <label><input type="radio" id="ate" name="ate" value="MB" required/>Muito bem</label>
+    <br/>
+    <label><input type="radio" id="ate" name="ate" value="NB" required/>Não muito bem</label>
+    <br/>
+    <label><input type="radio" id="ate" name="ate" value="NAB" required/>Nada bem</label>
+    </li>
+</ol>
+
+    <div id="avaliacao">
+        <table>
+            <ol type="1" start="4">
+        <li>
+        <label> Avalie o produto: </label>
+        <br/>
+        <a href="javascript:void(0)" onclick="Avaliar(1)">
+            <img src="img/star0.png" id="s1"></a>
+            
+            <a href="javascript:void(0)" onclick="Avaliar(2)">
+            <img src="img/star0.png" id="s2"></a>
+            
+            <a href="javascript:void(0)" onclick="Avaliar(3)">
+            <img src="img/star0.png" id="s3"></a>
+            
+            <a href="javascript:void(0)" onclick="Avaliar(4)">
+            <img src="img/star0.png" id="s4"></a>
+            
+            <a href="javascript:void(0)" onclick="Avaliar(5)">
+            <img src="img/star0.png" id="s5"></a>
+         <!--   <p id="rating">0</p>-->
+        </li>
+            </ol>
+        </div>
+
+        <div>
+            <ol type="1" start="5">
+                <li>
+             <label>Deixe seu comentário:</label>
+             <br>
+             <textarea id="coment" cols="45" rows="5"></textarea><br><br>
+                </li>
+            </ol>
+        </div>   
+
+    </div>
+</table>
+
+<input type="submit" id="enviar" name="enviar" value="ENVIAR" /> 
+<button> <a href="" style="text-decoration:none;"> VOLTAR </a> </button>
+
+    </body>
+</html>

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+
+h2{
+    color: white;
+    margin-top: 100px;
+    float: left;
+    margin-left: 740px;
+    width: auto;
+}
+
+
+form{
+    margin-top: 90px;
+    margin-left: 650px;
+}
+
+label{
+    color: white;
+    
+}
+
+input[type=email]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #FFF;
+    width: 330px;
+}
+
+input[type=password]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #FFF;
+    width: 333px;
+}
+
+input[type=tel]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #FFF;
+    width: 319px;
+}
+
+input[type=text]{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #FFF;
+    width: 334px;
+}
+
+input.cpf{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #FFF;
+    width: 344px;
+}
+
+input[type=submit]{
+    
+    margin-top: 40px;
+    border: 5px solid white;
+    border-radius: 2px solid white;
+    margin-left: 100px;
+}
+
+button{
+    margin-top: 15px;
+    border: 5px solid white;
+    border-radius: 2px solid white;
+}
+
+#logo{
+    background-image: url(imagem/logo.png);
+    background-repeat: no-repeat;
+    width: 465px; 
+    height: 130px;
+    background-size: 120px 120px;
+    margin-left: 790px;
+    margin-top: 
+    80px;
+}
